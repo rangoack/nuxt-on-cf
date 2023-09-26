@@ -1,6 +1,16 @@
 <template>
   <div>
-    Some default layout shared across all pages
+    <nav>
+      <ul>
+        <li>
+          <NuxtLink to="/">Home</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/">About</NuxtLink>
+        </li>
+      </ul>
+    </nav>
+
     <slot />
   </div>
 </template>
